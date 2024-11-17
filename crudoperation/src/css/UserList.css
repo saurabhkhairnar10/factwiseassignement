@@ -1,7 +1,6 @@
 /* Container styles */
 .user-list-container {
-    max-width: 2xl;
-    margin: 0 auto;
+    margin: auto;
     padding: 1rem;
   }
   
