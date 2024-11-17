@@ -1,0 +1,27 @@
+/* Container styles */
+.user-list-container {
+    max-width: 2xl;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  /* Heading styles */
+  .user-list-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Search box container */
+  .search-box-container {
+    margin-bottom: 1.5rem;
+    position: relative;
+  }
+  
+  /* Space between User Cards */
+  .user-card-container {
+    display: grid;
+    gap: 1rem;
+  }
+  

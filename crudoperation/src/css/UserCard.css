@@ -1,0 +1,62 @@
+/* User Image CSS */
+.user-image {
+    width: 32px; 
+    height: 32px; 
+    border-radius: 50%; /* Equivalent to rounded-full */
+  }
+  
+  /* Space above details */
+  .details-container {
+    margin-top: 16px; 
+  }
+  
+  .user-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+    gap: 16px; 
+  }
+  
+  .info-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .label {
+    font-size: 0.875rem; 
+    color: #6b7280; 
+  }
+  
+  /* Space above description */
+  .description {
+    margin-top: 16px; 
+  }
+  
+/* Delete and Edit button parent tag */
+.action-buttons {
+    margin-top: 16px; 
+    display: grid;
+    grid-template-columns: repeat(2, auto); /* Create two columns for icons */
+    gap: 10px; /* Space between buttons */
+    justify-content: flex-end; /* Align items to the right */
+}
+  
+/* Delete and Edit Icon Height and width */
+  .icon {
+    height: 16px; 
+    width: 16px; 
+  }
+  
+  /* Red color for delete icon */
+  .red {
+    color: #f44336; 
+  }
+  
+  /* Blue color for edit icon */
+  .blue {
+    color: #2196f3; 
+  }
+
+  .css-rizt0-MuiTypography-root.card-text{
+    margin-left: 1rem;
+    margin-top: 0.25rem;
+  }
